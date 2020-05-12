@@ -1,7 +1,7 @@
 # TIPS FOR USING CONDA
 
 ## INSTALLATION
-Install from browser using the default options
+Install from browser using the default options: https://docs.anaconda.com/anaconda/install/windows/
 
 ## CLI
 create new environment: `conda create -n [name_here] python=3`
