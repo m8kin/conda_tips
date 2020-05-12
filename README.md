@@ -3,7 +3,7 @@
 ## INSTALLATION (WINDOWS)
 Install from browser using the default options: https://docs.anaconda.com/anaconda/install/windows/
 
-Open the **Anaconda Command Propt**
+Open the **Anaconda Command Prompt** which is installed
 
 run to check version: `conda --version` and `python --version` to check versions
 
