@@ -9,7 +9,7 @@ Open the **Anaconda Command Prompt** and update the base version of conda
 
 Don't install new packages into base, if a new environment is required follow the steps below
 
-## SETUP NEW ENVIRONMENT
+## ENVIRONMENTS
 create new environment: `conda create -n [name_here] python=3`
 
 access new environment: `source activate [name_here]`
@@ -19,3 +19,11 @@ install packages: `conda install numpy pandas matlab`
 install jupyter: `conda install jupyter notebook`
 
 view installed pacakages: `conda list`
+
+save environment to a .YAML file: `conda env export > environment.yaml`
+
+create environment from .YAML file: `conda env create -f environment.yaml`
+
+exit an environment: (OSX/Linus) `conda deactivate`, (Windows) `deactivate`
+
+remove an environment: `conda env remove -n env_name`
