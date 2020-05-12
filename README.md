@@ -1,5 +1,9 @@
 # TIPS FOR USING CONDA
 
+## INSTALLATION
+Install from browser using the default options
+
+## CLI
 create new environment: `conda create -n [name_here] python=3`
 
 access new environment: `source activate [name_here]`
