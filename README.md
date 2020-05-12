@@ -6,4 +6,6 @@ access new environment: `source activate [name_here]`
 
 install packages: `conda install numpy pandas matlab`
 
+install jupyter: `conda install jupyter notebook`
+
 view installed pacakages: `conda list`
